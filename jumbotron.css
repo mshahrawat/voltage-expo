@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+	/*background: url("assets/img/background.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;*/
+    background: url(circuit1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:675px;  
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#eee;
+}
+
+#center {
+	text-align: center;
+}
+
+#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+#bodyy {
+	background-color: #dcdcdc;
+}
+
+#foot {
+	text-align: center;
+}
