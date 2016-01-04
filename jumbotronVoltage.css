@@ -42,6 +42,11 @@ body {
 	color: black;
 }
 
+#eeexpolink {
+	background-color: #93B1C6;
+	border-color: #93B1C6;
+}
+
 #aboutvolt{
 	background-color: #C7D0D5;
 	padding-top: 20px;
