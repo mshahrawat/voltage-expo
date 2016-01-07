@@ -9,7 +9,7 @@ body {
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-size: 100%;*/
-    background: url(circuit_dark.jpg) no-repeat center center fixed; 
+    background: url(images/ee_darkish.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,25 +48,33 @@ body {
 }
 
 #aboutvolt{
-	background-color: #C7D0D5;
+	/**background-color: #C7D0D5;**/
+	color: #ffffff;
+	background-color: #bfdccf;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #upcoming {
-	background-color: #93B1C6;
+	/**background-color: #93B1C6;**/
+	color: #ffffff;
+	background-color: #E05858;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #pastevents {
-	background-color: #F5F5F5;
+	/**background-color:F5F5F5;**/
+	color: #ffffff;
+	background-color: #d5c9b1;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #team {
-	background-color: #EC583A;
+	/**background-color: #EC583A;**/
+	color: #ffffff;
+	background-color: #5f968e;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
