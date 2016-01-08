@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="images/icon.jpg">
 
     <title>Voltage</title>
 
@@ -17,7 +17,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="jumbotronVoltage.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -82,26 +82,32 @@
 
         <!--<a class="btn btn-primary btn-lg" href="#about" id="center">Learn More&raquo;</a>-->
   
-        <!--<a class="btn btn-success btn-lg" href="#">Attend&raquo;</a>-->
+        <div style="text-align:center; padding-top:20px;"><a class="btn btn-success btn-lg" href="http://voltage.scripts.mit.edu/voltage-expo/expo.html" id="eeexpolink">To EE Expo Website &raquo;</a></div>
       </div>
 
 
     </div>
 
-    <div class="container" id="aboutvolt">
-      <!-- Example row of columns -->
-      <h2>V = IR?</h2>
-      <p>Voltage is the electrical engineering subcommittee of MIT's IEEE/ACM chapter. We are a group of undergraduates working to create a stronger, more cohesive MIT undergraduate EE community by organizing events that allow students, faculty, alumni, and industry to interact. Basically, we make being Course 6-1 even more awesome. Some events we have held in the past are the Research Expo, Alumni Dinner, and study breaks.</p>
+    <div id="aboutvolt">
+      <div class="container" id="aboutvolt">
+        <h2>V = IR?</h2>
+        <p>Voltage is the electrical engineering subcommittee of <a href="http://ieee.scripts.mit.edu/"> MIT's IEEE/ACM chapter</a>. We are a group of undergraduates working to create a stronger, more cohesive MIT undergraduate EE community by organizing events that allow students, faculty, alumni, and industry to interact. Basically, we make being Course 6-1 even more awesome. Some events we have held in the past are the Undergraduate EE Expo, Research Expo, Alumni Dinner, Faculty and Student Dinner, and study breaks.</p><br>
+        <img id="teampic" src="team.jpg">
+      </div>
     </div>
 
+    <div id="upcoming">
     <div class="container" id="upcoming">
-      <h2>Upcoming Events</h2>
-      <div class="panel panel-default">
+      <h2>Announcements/Upcoming Events</h2>
+      <p>Thanks to all who attended our events in 2015. Look out for Voltage in 2016...we have some great things lined up!
+      We will also start <b>recruiting</b> in January for other awesome people to join our team. If you are interested, please email us at <a href="mailto:voltage@mit.edu">voltage@mit.edu</a>.
+      </p>
+      <!--<div class="panel panel-default">-->
         <!-- Default panel contents -->
-        <div class="panel-heading">Events Schedule</div>
+        <!--<div class="panel-heading">Events Schedule</div>-->
 
         <!-- Table -->
-        <table class="table">
+        <!--<table class="table">
           <tr>
             <th>Date</th>
             <th>Time</th>
@@ -130,150 +136,243 @@
             <td></td>
             <td></td>
           </tr>
-        </table>
+        </table>-->
       </div>
          
     </div>
-
-    <div class="container" id="pastevents">
-      <h2>Past Events</h2>
-      <p>Put descriptions of how amazing our events were and many pictures</p>
-      <p>
-        EE Research Expo <br>
-        Alumni Dinner <br>
-        Study Breaks <br>
-        End of Semester Dinner <br>
-      </p>
-
     </div>
 
+    <div id="pastevents">
+    <div class="container" id="pastevents">
+      <h2>Past Events</h2>
+
+        <div id="endofsemdinner">
+          <p>
+            <b> Faculty/Student End of Semester Dinner: </b><br>
+            (December 3, 2015) As the semester was coming to a close, Voltage invited MIT EE faculty and students to a dinner to casually chat to get to know each other as well as discuss classes and research. <br>
+          </p>
+        </div>
+
+        <div id="eeexpo">
+          <p>
+            <b> Undergraduate EE Expo: </b><br>
+            (October 16, 2015) The Undergradute EE Expo aimed to connect freshmen and sophomores to research and internship opportunities for summer 2016 by bringing in MIT faculty and representatives from various companies as well as an exclusive networking fair. Website <a href="http://voltage.scripts.mit.edu/voltage-expo/expo.html">here</a>.<br>
+            <div id="row" style="text-align: center">
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/vanu.jpeg">
+                <div class="info">
+                  <p> Representative from Vanu talks about the company</p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/networking_fair.jpg">
+                <div class="info">
+                  <p> Students talk to company representatives at the exclusive networking fair </p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/EE_Expo.jpeg">
+                <div class="info">
+                  <p> EE Expo organizing team with Anantha</p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/poster.jpg">
+                <div class="info">
+                  <p> Our wonderful poster</p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/ananthamediatek.jpeg">
+                <div class="info">
+                  <p> Anantha Chandrakasan with reps from MediaTek</p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/eeexpo/witricity.jpeg">
+                <div class="info">
+                  <p> Representative from Witricity showing a demo</p>
+                </div>
+              </div>
+
+            </div>
+          </p>
+        </div>
+
+        <div id="alumnidinner">
+          <p>
+            <b> Alumni Dinner: </b><br>
+            (April 21, 2015) To give course 6-1 students some exposure to all the various career paths in electrical engineering, Voltage invited 6-1 alumni in the Boston area from different career paths to share their experiences with using EE skills in the workplace and advice for the future over dinner. <br>
+            <div id="row" style="text-align: center">
+              <div class="photo">
+                <img id="eeexpopics" src="images/alumnidinner/alumnidin1.jpg">
+                <div class="info">
+                  <p> An alum and students engage in interesting conversation </p>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img id="eeexpopics" src="images/alumnidinner/alumnidin.jpg">
+                <div class="info">
+                  <p> The organizers, Malika and Fiona, say opening remarks </p>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img id="eeexpopics" src="images/alumnidinner/alumnidin2.jpg">
+                <div class="info">
+                  <p> About 14 alumni and 35 students in attendance </p>
+                </div>
+              </div>
+          </div>
+          </p>
+        </div>
+
+        <div id="researchexpo">
+          <p>
+            <b> EE Research Expo: </b><br>
+            (April 1, 2015) The goal of the EE Expo was to increase EE exposure among interested students and spike interest among undecided students for opportunities in the department. With help from Professor Perreault, Voltage organized a research expo where professors gave presentations about their different research departments. Article <a href="https://news.mit.edu/2015/voltage-new-community-electrical-engineers-0520"> here</a>.<br>
+            <div id="row" style="text-align: center">
+              <div class="photo">
+                <img id="eeexpopics" src="images/researchexpo/audience.jpg">
+                <div class="info">
+                  <p> Everyone listening to the presentations </p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/researchexpo/eeexpo.jpg">
+                <div class="info">
+                  <p> Rajeev Ram and a student discuss</p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/researchexpo/perrault.jpg">
+                <div class="info">
+                  <p> Dave Perreault talks about his research </p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/researchexpo/eexteam.jpg">
+                <div class="info">
+                  <p> Organizing team for the Research Expo!</p>
+                </div>
+              </div>
+          </div>
+          </p>
+        </div>
+
+        <div id="studybreaks">
+          <p>
+            <b> Study Breaks: </b><br>
+            Voltage holds a few study breaks a semester for students to relax, eat food, and meet their fellow classmates. <br>
+            <div id="row" style="text-align: center">
+              <div class="photo">
+                <img id="eeexpopics" src="images/studybreaks/1.jpg">
+                <div class="info">
+                  <p> Talking about that EE life </p>
+                </div>
+              </div>
+              <div class="photo">
+                <img id="eeexpopics" src="images/studybreaks/2.jpg">
+                <div class="info">
+                  <p> Fall themed snacks for a fall study break!</p>
+                </div>
+              </div>
+          </div>
+          </p>
+        </div>
+
+    </div>
+    </div>
+
+    <div id="team">
     <div class="container" id="team">
       <h2>Meet the Team</h2>
       <h4>Because who the heck is Voltage? Answer: the coolest people ever.</h4> 
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/neerja.jpg" alt="...">
-            <div class="caption">
-              <h3>Neerja Aggarwal '16</h3>
-              <p><b>Course: 6-1 </b><br>Founder and Co-chair of Voltage, bio</p>
+      <p> </p>
+
+      <div class="row" style="text-align:center">
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/fiona.jpg">
+              <div class="caption">
+                <h4>Fiona Paine '17</h4>
+                <p><b>Course 6-1 </b><br>Co-chair of Voltage<br>She brings yummy snacks</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/fiona.jpg" alt="...">
-            <div class="caption">
-              <h3>Fiona Paine '17</h3>
-              <p><b>Course: 6-1 </b><br>Co-chair of Voltage, bio</p>
+
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/neerja.jpg">
+              <div class="caption">
+                <h4>Neerja Aggarwal '16</h4>
+                <p><b>Course 6-1 </b><br>Founder of Voltage<br>SHE DIRECTED A PLAY</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/nick.jpg" alt="...">
-            <div class="caption">
-              <h3>Nick Arango '16</h3>
-              <p><b>Course: 6-1 </b><br>bio</p>
+
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/sarah.jpg">
+              <div class="caption">
+                <h4>Sarah Hensley '17</h4>
+                <p><b>Course 6-1 </b><br>Study Break Pro<br>She doesn't like circuits</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/julia.jpg" alt="...">
-            <div class="caption">
-              <h3>Julia Belk '17</h3>
-              <p><b>Course: 6-1 </b><br>bio</p>
+
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/paul.jpg">
+              <div class="caption">
+                <h4>Paul Kalebu '17</h4>
+                <p><b>Course 6-2 </b><br>Gets stuff done<br>He's pretty strong</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
       </div>
 
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/david.jpg" alt="...">
-            <div class="caption">
-              <h3>David Gomez '17</h3>
-              <p><b>Course: 6-1 </b><br>bio</p>
+      <div class="row" style="text-align:center">
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/allison.jpg">
+              <div class="caption">
+                <h4>Allison Lemus '18</h4>
+                <p><b>Course 6-2 </b><br>Designer and Photographer<br>She's pretty chill</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/sarah.jpg" alt="...">
-            <div class="caption">
-              <h3>Sarah Hensley '17</h3>
-              <p><b>Course: 6-1 </b><br>bio</p>
+
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/jimmy.jpg">
+              <div class="caption">
+                <h4>Jimmy Mawdsley '18</h4>
+                <p><b>Course 6-1 </b><br>Kidnapped Underclassman<br>He likes EE things</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/paul.jpg" alt="...">
-            <div class="caption">
-              <h3>Paul Kalebu '17</h3>
-              <p><b>Course: 6-2 </b><br>bio</p>
+
+            <div class="team">
+              <div class="thumbnail">
+              <img id="teampics" src="images/team/malika.jpg">
+              <div class="caption">
+                <h4>Malika Shahrawat '18</h4>
+                <p><b>Course 6-3 </b><br>wait...comp sci?! whaaaaat<br>She eats all the snacks</p>
+              </div>
+              </div>  
             </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/ebenezer.jpg" alt="...">
-            <div class="caption">
-              <h3>Ebenezer Nkwate '17</h3>
-              <p><b>Course: 6-2 </b><br>bio</p>
-            </div>
-          </div>
-        </div>
       </div>
 
-      <div class="row">
-
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/shirin.jpg" alt="...">
-            <div class="caption">
-              <h3>Shirin Shivaei '17</h3>
-              <p><b>Course: 6-1 </b><br>bio</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/allison.jpg" alt="...">
-            <div class="caption">
-              <h3>Allison Lemus '18</h3>
-              <p><b>Course: 6-2</b><br>bio</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/malika.jpg" alt="malika">
-            <div class="caption">
-              <h3>Malika Shahrawat '18</h3>
-              <p><b>Course: 6-3  </b><br> We don't know what she is actually doing here and only slightly hate her for declaring 6-3, but she did make us this nice website so...</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/extra.jpg" alt="...">
-            <div class="caption">
-              <h3>Wanna get involved?</h3>
-              <p>Email us at <a href="mailto:voltage@mit.edu">voltage@mit.edu</a> to learn more and get involved!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <p> Also a big thank you to the MIT EECS Department for its immense support! Voltage wouldn't be what it is without our biggest fans :)</p>
     </div>
+  </div>
 
       <hr>
 
       <footer id="foot">
-        <p> &copy; Voltage 2015</p>
+        <p> &copy; MIT IEEE/ACM Voltage 2016</p>
       </footer>
     
 
@@ -285,5 +384,16 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script type="text/javascript">
+    $(function() {
+      $(".photo").hover(function(){
+        $(this).find(".info").fadeIn('fast');
+      },
+      function(){
+          $(this).find(".info").fadeOut('fast');
+      });
+    });
+  </script>
   </body>
 </html>
