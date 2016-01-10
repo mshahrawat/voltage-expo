@@ -1,0 +1,139 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+	/*background: url("assets/img/background.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;*/
+    background: url(images/ee-darker.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:600px;  
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#eee;
+}
+
+#center {
+	text-align: center;
+}
+
+#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+#bodyy {
+	background-color: #0fcfc4;
+}
+
+#foot {
+	text-align: center;
+}
+
+#black {
+	color: black;
+}
+
+#eeexpolink {
+	background-color: #93B1C6;
+	border-color: #93B1C6;
+}
+
+#aboutvolt{
+	/**background-color: #C7D0D5;**/
+	color: #ffffff;
+	background-color: #0fcfc4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#upcoming {
+	/**background-color: #93B1C6;**/
+	color: #ffffff;
+	background-color: #11e8dd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#pastevents {
+	/**background-color:F5F5F5;**/
+	color: #ffffff;
+	background-color: #0da8a0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#team {
+	/**background-color: #EC583A;**/
+	color: #ffffff;
+	background-color: #086963;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#teampic {
+	height:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#eeexpopics {
+	height: 200px;
+	display: block;
+}
+
+#rexpopics {
+	height: 190px;
+	display: block;
+}
+
+.team {
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	text-align: left;
+}
+
+#teampics {
+	height: 200px;
+	display: block;
+}
+
+.photo {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.photo a:link,
+.photo a:active,
+.photo a:visited,
+.photo a:hover {
+	text-decoration: none;
+}
+
+.photo .info {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	background-color: rgba(82, 144, 255, 0.6);
+	padding-bottom: 5px;
+
+	display: none;
+	font-size: 14px;
+	text-align: center;
+}
