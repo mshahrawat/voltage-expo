@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+img {
+	max-width:100%;
+}
+
 /*********** Heading CSS ***********/
 
 .jumbotron {
@@ -74,6 +78,7 @@ body {
 	background-color: white;
 	color: #086963;
 	width: 1000px;
+	max-width:100%;
 }
 
 /************************************/
