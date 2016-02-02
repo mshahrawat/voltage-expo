@@ -4,6 +4,8 @@ body {
   padding-bottom: 20px;
 }
 
+/*********** Heading CSS ***********/
+
 .jumbotron {
 	/*background: url("assets/img/background.jpg") no-repeat;
 	-webkit-background-size: 100%;
@@ -34,10 +36,6 @@ body {
 	background-color: #0fcfc4;
 }
 
-#foot {
-	text-align: center;
-}
-
 #black {
 	color: black;
 }
@@ -47,6 +45,10 @@ body {
 	border-color: #93B1C6;
 }
 
+/************************************/
+
+/******* About Voltage CSS **********/
+
 #aboutvolt{
 	/**background-color: #C7D0D5;**/
 	color: #ffffff;
@@ -54,6 +56,10 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+/**********************************/
+
+/**** Upcoming Events/Announcements CSS ****/
 
 #upcoming {
 	/**background-color: #93B1C6;**/
@@ -63,6 +69,17 @@ body {
 	padding-bottom: 20px;
 }
 
+#announcement {
+	text-align: center;
+	background-color: white;
+	color: #086963;
+	width: 1000px;
+}
+
+/************************************/
+
+/******** Past Events CSS ********/
+
 #pastevents {
 	/**background-color:F5F5F5;**/
 	color: #ffffff;
@@ -70,6 +87,19 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+#eeexpopics {
+	height: 200px;
+	display: block;
+}
+
+#rexpopics {
+	height: 190px;
+	display: block;
+}
+/*********************************/
+
+/******* Meet the Team CSS ********/
 
 #team {
 	/**background-color: #EC583A;**/
@@ -84,16 +114,6 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#eeexpopics {
-	height: 200px;
-	display: block;
-}
-
-#rexpopics {
-	height: 190px;
-	display: block;
 }
 
 .team {
@@ -135,5 +155,10 @@ body {
 
 	display: none;
 	font-size: 14px;
+	text-align: center;
+}
+/**************************/
+
+#foot {
 	text-align: center;
 }
