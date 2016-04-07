@@ -1,0 +1,71 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #0fcfc4;
+}
+
+img {
+	max-width:100%;
+}
+
+/*********** Heading CSS ***********/
+
+.jumbotron {
+	/*background: url("assets/img/background.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;*/
+    background: url(images/circuit2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:100%; /**???? 600px?**/  
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#eee;
+}
+
+.center {
+	text-align: center;
+}
+
+#logo-pic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 529px; 
+    height: 133.6666666px;
+}
+
+#eeexpolink {
+	background-color: #93B1C6;
+	border-color: #93B1C6;
+}
+
+/************************************/
+
+/**** Upcoming Events/Announcements CSS ****/
+
+#upcoming {
+	/**background-color: #93B1C6;**/
+	color: #ffffff;
+	background-color: #0da8a0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#announcement {
+	text-align: center;
+	background-color: white;
+	color: #086963;
+	width: 1000px;
+	max-width:100%;
+}
+
+/************************************/
+
+#foot {
+	text-align: center;
+}
