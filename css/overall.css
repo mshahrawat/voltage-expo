@@ -1,0 +1,36 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /*background-color: #3fb0ac;*/
+  background-color: #0da8a0;
+}
+
+img {
+	max-width:100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar {
+	background-color: black;
+}
+
+#active {
+	background-color: #dddfd4;
+	color: #173e43;
+}
+
+#not:hover {
+	background-color: #173e43;
+	color: #fff;
+}
+
+#foot {
+	text-align: center;
+	/*background-color: black;*/
+	color: #fff;
+}
