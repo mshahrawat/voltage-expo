@@ -8,6 +8,28 @@
 	padding-bottom: 20px;
 }
 
+.eventbtn {
+	border: none;
+	border-radius: 0px;
+	background-color: #f7d455;
+	color: #fff;
+	width: 100%;
+}
+
+.eventbtn-hover {
+	background-color: #21585f;
+	color: #fff;
+}
+
+.eventbtn:hover {
+	background-color: #21585f;
+	color: #fff;
+}
+
+#eventct {
+	background-color: #173e43;
+}
+
 #eeexpopics {
 	height: 200px;
 	display: block;
