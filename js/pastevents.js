@@ -1,24 +1,44 @@
 $(document).ready(function() {
-	var alumnidinner2016html = "Alumni Dinner 2016 content here";
-	var researchexpo2016html = "Research Expo 2016 content here";
-	var facultydinner2015html = "Student/Faculty Dinner content here";
-	var eeexpo2015html = "Undergraduate EE Expo 2015 content here";
-	var alumnidinner2015html = "Alumni Dinner 2015 content here";
-	var researchexpo2015html = "Research Expo 2015 content here";
-	var studybreakshtml = "Study Breaks content here";
 
+	// set inner html for each event content
+	$("#uexpo-div").hide();
+	var uexpoVar = $("#uexpo-div").html();
+
+	$("#alumdin-div").hide();
+	var alumdinVar = $("#alumdin-div").html();
+
+	$("#rexpo-div").hide();
+	var rexpoVar = $("#rexpo-div").html();
+
+	$("#facdin-div").hide();
+	var facdinVar = $("#facdin-div").html();
+
+	$("#study-div").hide();
+	var studyVar = $("#study-div").html();
+
+	// set which event content is selected 
 	var uexpoSelect = true;
 	var alumdinSelect = false;
 	var rexpoSelect = false;
 	var facdinSelect = false;
 	var studySelect = false;
 
-	document.getElementById("eventct").innerHTML = eeexpo2015html;
+	// TODO: photo captions no longer show up... 
+	$(".photo").hover(function() {
+	  $(this).find(".info").fadeIn('fast');
+	},
+	function(){
+	   $(this).find(".info").fadeOut('fast');
+	});
+
+	// set default event open as the undergraduate ee expo
+	document.getElementById("eventct").innerHTML = uexpoVar;
 	$("#uexpo").css('background-color', '#173e43');
 	$("#uexpo").css('color', '#fff');
 
+	// event click functions below, much hard code
 	$("#uexpo").click(function() {
-		$("#eventct").html(eeexpo2015html);
+		$("#eventct").html(uexpoVar);
 
 		$("#uexpo").css('background-color', '#173e43');
 		$("#uexpo").css('color', '#fff');
@@ -36,7 +56,9 @@ $(document).ready(function() {
 	});
 
 	$("#alumdin").click(function() {
-		$("#eventct").html(alumnidinner2016html + alumnidinner2015html);
+		// $("#eventct").html(alumdinHTML);
+		$("#eventct").html(alumdinVar);
+		// $("#alumdin-div").show();
 
 		$("#alumdin").css('background-color', '#173e43');
 		$("#alumdin").css('color', '#fff');
@@ -54,7 +76,7 @@ $(document).ready(function() {
 	});
 
 	$("#rexpo").click(function() {
-		$("#eventct").html(researchexpo2016html + researchexpo2015html);
+		$("#eventct").html(rexpoVar);
 
 		$("#rexpo").css('background-color', '#173e43');
 		$("#rexpo").css('color', '#fff');
@@ -72,7 +94,7 @@ $(document).ready(function() {
 	});
 
 	$("#facdin").click(function() {
-		$("#eventct").html(facultydinner2015html);
+		$("#eventct").html(facdinVar);
 
 		$("#facdin").css('background-color', '#173e43');
 		$("#facdin").css('color', '#fff');
@@ -90,7 +112,7 @@ $(document).ready(function() {
 	});
 
 	$("#study").click(function() {
-		$("#eventct").html(studybreakshtml);
+		$("#eventct").html(studyVar);
 
 		$("#study").css('background-color', '#173e43');
 		$("#study").css('color', '#fff');

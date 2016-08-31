@@ -27,6 +27,8 @@
 }
 
 #eventct {
+	padding-right: 25px;
+	padding-left: 25px;
 	background-color: #173e43;
 }
 
@@ -61,8 +63,8 @@
 	bottom: 10px;
 	left: 10px;
 	right: 10px;
-	background-color: rgba(82, 144, 255, 0.6);
-	padding-bottom: 5px;
+	background-color: rgba(33, 88, 95, 0.6);
+	/*padding-bottom: 5px;*/
 
 	display: none;
 	font-size: 14px;
