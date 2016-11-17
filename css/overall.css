@@ -35,3 +35,13 @@ img {
 	/*background-color: black;*/
 	color: #fff;
 }
+
+.links {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.links:hover {
+	color: #d9d9d9;
+	text-decoration: underline;
+}

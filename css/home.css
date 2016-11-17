@@ -30,16 +30,31 @@
 }
 
 #eeexpolink {
-	/*background-color: #93B1C6;*/
-  background-color: #f9e085;
-	/*border-color: #fae596;*/
+  background-color: #f7d455;
   border: none;
   border-radius: 0px;
-  /*color: #173e43;*/
 }
 
 #eeexpolink:hover {
-  background-color: #f7d455;
+  background-color: #21585f;
+}
+
+#announcements {
+	padding-top: 30px;
+}
+
+.info-div {
+	background-color: #173e43;
+	padding: 10px;
+	height: 250px;
+}
+
+.annoucements-img {
+	height: 175px;
+}
+
+.announcements-text {
+	padding-top: 10px;
 }
 
 /************************************/
