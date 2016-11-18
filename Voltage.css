@@ -15,12 +15,12 @@ img {
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-size: 100%;*/
-    background: url(images/circuit2.jpg) no-repeat center center fixed; 
+    background: url(images/team-pic-home.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	height:600px;  
+	height:800px;  
 	padding-bottom: 20px;
 	margin-bottom:0px;
 	color:#eee;
@@ -47,10 +47,14 @@ img {
 }
 
 #eeexpolink {
-	background-color: #93B1C6;
-	border-color: #93B1C6;
+  background-color: #f7d455;
+  border: none;
+  border-radius: 0px;
 }
 
+#eeexpolink:hover {
+  background-color: #21585f;
+}
 /************************************/
 
 /******* About Voltage CSS **********/
@@ -117,7 +121,7 @@ img {
 }
 
 #teampic {
-	height:300px;
+	height:500px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

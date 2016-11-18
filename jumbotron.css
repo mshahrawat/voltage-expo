@@ -9,12 +9,12 @@ body {
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-size: 100%;*/
-    background: url(circuit_dark.jpg) no-repeat center center fixed; 
+    background: url(images/EE_Welcome_Dinner.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	height:450px;  
+	height:600px;  
 	padding-bottom: 20px;
 	margin-bottom:0px;
 	color:#eee;
